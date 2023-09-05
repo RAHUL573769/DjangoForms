@@ -5,3 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 def homepage1(request):
     return render(request, "about.html")
+
+
+def formpage(request):
+    return render(request, "forms.html")
